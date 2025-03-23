@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<Html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment2, ordered lists, images, table form</title>
+</head>
+<body>
+<h1>Assingment2</h1>
+<fieldset>
+       <h2>Lists:</h2>
+       <legend>Lists</legend>
+    <!--ordered list in romans-->
+          <ol type="i">
+            <li>parking</li>
+            <li>Resturant</li>
+            <li>Swimming</li>
+            <li>Playing</li>
+            <li>Meeting</li>
+        </ol>
+</fieldset><br><br>
+
+    <!--Images-->
+    <img src="hotel.jpg" alt="pexel.com"><br><br><br>
+
+    <fieldset>   
+        <legend>Table</legend>
+         <!--Table-->
+    <table border="7">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Mobile No</td>
+                <td>Email</td>
+            </tr>
+        </thead>
+            <tr>
+                <td>Upside Down</td>
+                <td>D23, Nairobi</td>
+                <td>+340 734521903</td>
+                <td>upsidedowm25@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Wiseman</td>
+                <td>T54h, Thika</td>
+                <td>+732 01194820</td>
+                <td>wisew56@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Demur</td>
+                <td>ZH4530, Apple</td>
+                <td>+234 65487018</td>
+                <td>demur89@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Thrilled sticker</td>
+                <td>DHL23, Dooo</td>
+                <td>+564 9873099</td>
+                <td>hacker54@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Thee Hacker</td>
+                <td>DHL23, Codere</td>
+                <td>+342 9873099</td>
+                <td>codeit32@gmail.com</td>
+            </tr>
+    </table><br><br><br>
+</fieldset>
+
+
+    <!--Registration form-->
+    <h1>Registration Form</h1>
+    <hr><br>
+    <form action="Registration form" method="post">
+    <fieldset>
+        <legend>Personal Info</legend>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name"  name="Name" placeholder="Input your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        
+        <label for="gender">Gender</label><br><br>
+        Select your gender <br><br>
+        <input type="radio" id="Male" name="gender" value="Male" title="Select Male">
+        <label for="Male">Male</label><br><br>
+
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+    </fieldset><br><br>
+        
+        <fieldset>
+            <legend><b>Operating System</b></legend>
+        <input type="radio" name="Operating System" id="Operating System" value="Operating System">
+        <label for="Operating System">Windows</label><br><br>
+        <input type="radio" name="Operating System" id="Operating System" value="Operating System">
+        <label for="Operating System">MacOS</label><br><br>
+        <input type="radio" name="Operating System" id="Operating System" value="Operating System">
+        <label for="Operating System">Linux/Ubuntu</label></fieldset><br><br>
+
+
+        <a href="Terms and conditions">Terms and conditions</a><br>
+        
+
+       
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept terms and conditions</label><br>
+
+
+        <input type="checkbox" id="Understand" name="terms" title="I have read and understood the terms and conditions" required>
+        <label for="terms">I have read and understood the tems and conditions.</label><br><br>
+        
+        <label for="PLP">Course</label>
+        <br>
+        <b>Choose your course</b><br>
+        <select name="Course" id="PLP" title="Plp">
+            <option value="--Select your Course Below--">--Select your Course Below--</option>
+               <optgroup label="Frontend Languages">
+                   <option value="Html">Html</option>
+                    <option value="Css">Css</option>
+                    <option value="JavaScript">JavaScript</option>
+               </optgroup>
+               <optgroup label="Backend Languages">
+                    <option value="TypeScript">TypeScript</option>
+                    <option value="Nodejs">Nodejs</option>
+                    <option value="Python">Python</option>
+                </optgroup>    
+        </select> <br><b></b> <br> 
+
+        <label for="complexity">Complexity in programming</label>
+        <input type="range" id="complexity" name="complexity" min="1" max="10" required><br><br>
+        
+        <label for="decade">Decade</label>
+        <input type="number" id="decade" name="decade" min="1995" max="2025" value="2025" step="10"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
